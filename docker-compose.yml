@@ -1,0 +1,18 @@
+version: "2.2"
+
+services:
+  internal-car-service:
+    container_name: internal-car-service
+    build: ./services/carsInt
+    volumes:
+      - "./services/carsInt:/usr/src/app"
+    ports:
+      - "3000:3000"
+
+  external-car-service:
+    container_name: external-car-service
+    build: ./services/carsExt
+    volumes:
+      - "./services/carsExt:/usr/src/app"
+    ports:
+      - "3001:3001"
