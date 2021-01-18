@@ -7,16 +7,12 @@ Create two node services to serve details related to cars:
 
 ## Tech Stack Used
 
----
-
 1. NodeJS v12.x
 2. Docker
 3. Express Framework
 4. Chai, Mocha, Supertest
 
 ## Using this Project
-
----
 
 ### 1. Running the project directly using Docker Compose
 
