@@ -58,8 +58,6 @@ $ docker -p 3000:3000 -d internal-car-service
 
 ## Sanity Check
 
----
-
 (1) Internal Car Service
 
 | Endpoint  | HTTP Method | Result                |
